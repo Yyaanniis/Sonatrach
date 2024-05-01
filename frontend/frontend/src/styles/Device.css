@@ -1,0 +1,24 @@
+.devices-container {
+  margin: 20px;
+}
+
+.devices-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.devices-table th,
+.devices-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.devices-table th {
+  background-color: #f2f2f2;
+}
+
+.devices-table img {
+  max-width: 100px; /* Ajustez la taille de l'image selon votre besoin */
+  max-height: 100px;
+}
