@@ -1,0 +1,57 @@
+.a-profile {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 0px;
+  text-align: center; /* Centrer le contenu */
+}
+.a-profile h1{
+  margin-bottom: 40px;
+  display: flex;
+  align-items: start;
+  text-decoration: underline;
+}
+
+.admin-info {
+  display: flex;
+  align-items: start;
+  width: 100%;
+}
+
+
+.a-p-label {
+  margin-bottom: 20px; 
+  width: 50%;
+  display: flex;
+  align-items: start;
+}
+
+.a-p-input {
+  display: flex;
+  align-items: end;
+  width: 50%;
+}
+
+.a-id{
+  border: 1px solid black;
+  display: flex;
+  align-items: end;
+  width: 50%;
+}
+
+.a-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-btns button {
+  margin: 10px;
+}
+
+.a-p-input:hover{
+  background-color: rgb(156, 149, 149);
+}
+.a-p-input:active{
+  background-color: white;
+  border-color: black;
+}

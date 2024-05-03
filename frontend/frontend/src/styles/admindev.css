@@ -1,0 +1,24 @@
+.adev {
+  margin: 20px;
+}
+
+.atable-dev {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.atable-dev th,
+.atable-dev td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.atable-dev th {
+  background-color: #f2f2f2;
+}
+
+.atable-dev img {
+  max-width: 100px; /* Ajustez la taille de l'image selon votre besoin */
+  max-height: 100px;
+}

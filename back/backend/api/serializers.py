@@ -1,11 +1,11 @@
 from django.contrib.auth.models import User
-from rest_framework import serializers
-from .models import Note
+from rest_framework import serializers, generics
+from .models import Outil,Note
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ["id", "username", "password"]
+        fields = ["username", "password"]
         extra_kwargs = {"password": {"write_only": True}}
 
     def create(self,validated_data):
@@ -18,3 +18,8 @@ class NoteSerializer(serializers.ModelSerializer):
         model= Note
         fields=["id","title","content","created_at","author"]
         extra_kwargs = {"author": {"read_only":True}}
+
+class OutilSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Outil
+        fields = '__all__'

@@ -24,16 +24,16 @@ const Navbar = () => {
         </Link>
         <ul className="navbar-nav ">
           <li className="nav-item">
-            <Link className="nav-link" to="/home">Home</Link>
+            <Link className="nav-link" to="/userhome">Home</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/devices">My Devices</Link>
+            <Link className="nav-link" to="/userdev">My Devices</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/history">History</Link>
+            <Link className="nav-link" to="/userhis">History</Link>
           </li>
           <li className="nav-item2">
-           <Link className="nav-link" to="/profile">Myprofile</Link>
+           <Link className="nav-link" to="/userpro">Myprofile</Link>
           </li>
         </ul>
         <Link className="btn ml-auto " to="/login" onClick={Logout} title="Déconnexion">

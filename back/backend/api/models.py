@@ -8,3 +8,12 @@ class Note(models.Model):
 
     def __str__(self):
         return self.title
+
+class Outil(models.Model):
+    nom = models.CharField(max_length=100)
+    description = models.TextField()
+    photo = models.ImageField()
+    date_creation = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.nom

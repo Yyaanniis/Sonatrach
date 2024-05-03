@@ -1,0 +1,35 @@
+.admin-main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.lig {
+  display: flex;
+  justify-content: space-around; /* Aligner les fenêtres horizontalement */
+  width: 100%;
+  margin-bottom: 20px; /* Espace entre les rangées */
+}
+ 
+.case {
+  flex: 1 0 25%; /* Réduire la largeur des fenêtres */
+  max-width: 300px; /* Largeur maximale des fenêtres */
+  min-height: 200px;
+  margin: 5px; /* Réduire l'espacement des marges */
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  align-items: center; /* Aligner verticalement le contenu au centre */
+}
+.case a {
+  width: 100%;
+  height: 100%;
+text-decoration: none;
+}
+.case h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+
